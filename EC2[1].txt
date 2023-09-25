@@ -1,0 +1,38 @@
+**************** EC2 ****************
+
+Q.1) Create a new EC2 instance with a specific Amazon Machine Image (AMI) of your choice.
+Choose an appropriate EC2 instance type based on your application's requirements.
+Configure security groups to allow specific inbound and outbound traffic.
+Assign an Elastic IP address to the instance for a static public IP (if needed).
+Connect to the instance using SSH or RDP, depending on the operating system.
+==>
+
+
+
+Q.2) Creating and Customizing an AMI:
+Launch an EC2 instance based on an existing AMI.
+Install necessary software packages and configure the instance according to your application needs.
+Create a new custom AMI from the configured EC2 instance to capture the changes made.
+Ensure that the custom AMI is private and securely stored.
+==>
+
+
+Q.3) Setting up EBS Volumes:
+Attach an additional EBS volume to an existing EC2 instance.
+Format and mount the EBS volume to make it usable as additional storage.
+Test the persistence and data integrity by storing and retrieving data from the attached EBS volume.
+==>
+
+Q.3) VPC and Subnet Configuration:
+Create a Virtual Private Cloud (VPC).
+Create multiple subnets, public and private, within the VPC.
+Configure the route tables and internet gateway to enable internet access for instances in the public subnet.
+Launch EC2 instances in both the public and private subnets and verify network connectivity.
+==>
+
+Q.4)Implementing Load Balancer:
+Set up an Application Load Balancer (ALB) or Network Load Balancer (NLB).
+Register EC2 instances with the load balancer to distribute traffic evenly.
+Configure health checks to monitor the health of instances and automatically remove unhealthy instances from the load balancer.
+Test the load balancer's functionality by accessing the application through its DNS name.
+==>
